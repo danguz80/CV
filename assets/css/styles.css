@@ -3,6 +3,7 @@ body{
     padding: 0;
 }
 
+
 .foto_perfil{
     height: 200px;
     border-radius: 50%;
@@ -28,7 +29,7 @@ li:hover{
 }
 
 .acercademi{
-    margin: 2rem 8rem 2rem 8rem;
+    margin: 1vw 10vw 1vw 10vw;
 }
 
 .col{
@@ -182,7 +183,9 @@ li:hover{
     font-family: "Galada", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    font-size: 5vw;
+    margin: 0;
+    padding: 2vw;
 }
 
 .m-plus {
