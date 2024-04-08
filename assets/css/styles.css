@@ -1,5 +1,11 @@
 body{
     margin: 0;
+    padding: 0;
+}
+
+.foto_perfil{
+    height: 200px;
+    border-radius: 50%;
 }
 
 .navbar{
@@ -10,11 +16,10 @@ body{
     background-size: cover;
 }
 
-
-
-.foto_perfil{
-    height: 200px;
-    border-radius: 50%;
+.main{
+    background: #283048;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 li:hover{
@@ -30,115 +35,173 @@ li:hover{
     margin: 2rem 8rem 2rem 8rem;
 }
 
+.acerca{
+    background: #EFEFBB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.estudios{
+    background: #EFEFBB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.trabajos{
+    background: #EFEFBB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.portafolio{
+    background: #EFEFBB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card-img-top{
+    height: 300px;
+}
+
 .kanit-thin {
     font-family: "Kanit", sans-serif;
     font-weight: 100;
     font-style: normal;
-  }
+}
   
-  .kanit-extralight {
+.kanit-extralight {
     font-family: "Kanit", sans-serif;
     font-weight: 200;
     font-style: normal;
-  }
+}
   
-  .kanit-light {
+.kanit-light {
     font-family: "Kanit", sans-serif;
     font-weight: 300;
     font-style: normal;
-  }
+}
   
-  .kanit-regular {
+.kanit-regular {
     font-family: "Kanit", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: x-large;
     text-shadow: 1px 1px 2px black;
-  }
+}
   
-  .kanit-medium {
+.kanit-medium {
     font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-style: normal;
-  }
+}
   
-  .kanit-semibold {
+.kanit-semibold {
     font-family: "Kanit", sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: xx-large;
     text-shadow: 3px 3px 10px black;
-  }
+}
   
-  .kanit-bold {
+.kanit-bold {
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
-  }
+}
   
-  .kanit-extrabold {
+.kanit-extrabold {
     font-family: "Kanit", sans-serif;
     font-weight: 800;
     font-style: normal;
-  }
+}
   
-  .kanit-black {
+.kanit-black {
     font-family: "Kanit", sans-serif;
     font-weight: 900;
     font-style: normal;
-  }
+}
   
-  .kanit-thin-italic {
+.kanit-thin-italic {
     font-family: "Kanit", sans-serif;
     font-weight: 100;
     font-style: italic;
-  }
+}
   
-  .kanit-extralight-italic {
+.kanit-extralight-italic {
     font-family: "Kanit", sans-serif;
     font-weight: 200;
     font-style: italic;
-  }
+}
   
-  .kanit-light-italic {
+.kanit-light-italic {
     font-family: "Kanit", sans-serif;
     font-weight: 300;
     font-style: italic;
-  }
+}
   
-  .kanit-regular-italic {
+.kanit-regular-italic {
     font-family: "Kanit", sans-serif;
     font-weight: 400;
     font-style: italic;
-  }
+}
   
-  .kanit-medium-italic {
+.kanit-medium-italic {
     font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-style: italic;
-  }
+}
   
-  .kanit-semibold-italic {
+.kanit-semibold-italic {
     font-family: "Kanit", sans-serif;
     font-weight: 600;
     font-style: italic;
-  }
+}
   
-  .kanit-bold-italic {
+.kanit-bold-italic {
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: italic;
-  }
+}
   
-  .kanit-extrabold-italic {
+.kanit-extrabold-italic {
     font-family: "Kanit", sans-serif;
     font-weight: 800;
     font-style: italic;
-  }
+}
   
-  .kanit-black-italic {
+.kanit-black-italic {
     font-family: "Kanit", sans-serif;
     font-weight: 900;
     font-style: italic;
-  }
+}
+
+.galada-regular {
+    background: -webkit-linear-gradient(#1D5AA8, #000000);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    font-family: "Galada", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.m-plus {
+  font-family: "M PLUS 1 Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+  font-size: 1.3rem;
+}
+
+.teko {
+  background: -webkit-linear-gradient(#1D5AA8, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: bold;
+  font-size: 50px;
+}
+  
   
