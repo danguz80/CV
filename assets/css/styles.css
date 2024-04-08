@@ -1,12 +1,17 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    padding-top: 2rem;
+}
+
 .navbar{
-    position: fixed;
     z-index: 100;
     width: 100%;
 }
 
-.main{
-    padding-top: 25rem;
-}
 .foto_perfil{
     height: 300px;
     border-radius: 50%;
