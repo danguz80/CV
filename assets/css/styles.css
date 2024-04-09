@@ -22,17 +22,29 @@
     }
 }
 
-@media only screen and (max-width: 500px) {
-    div.ps-5 {
-      padding: 0;
+
+@media only screen and (min-width: 500px) {
+    i.logos {
+      font-size: 4em;
+      padding-right: 2em;
     }
 }
 
-@media only screen and (max-width: 500px) {
-    div.pe-5 {
-      padding: 0;
+@media only screen and (min-width: 500px) {
+    i.rrss {
+      font-size: 3em;
+      padding: 0.5em 2em 0.5em 0;
     }
 }
+
+.fa-bootstrap{
+    padding: 0 !important;
+}
+
+.fa-github{
+    padding: 0 !important;
+}
+
 
 body{
     margin: 0;
@@ -100,6 +112,7 @@ li:hover{
     font-family: "Kanit", sans-serif;
     font-weight: 100;
     font-style: normal;
+    text-decoration: none;
 }
   
 .kanit-extralight {
